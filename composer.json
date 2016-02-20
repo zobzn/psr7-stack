@@ -1,0 +1,42 @@
+{
+  "name": "zobzn/psr7-stack",
+  "description": "PSR-7 HTTP Middleware Stack",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "psr",
+    "psr-7",
+    "middleware",
+    "stack"
+  ],
+  "homepage": "https://github.com/zobzn/psr7-stack",
+  "support": {
+    "issues": "https://github.com/zobzn/psr7-stack/issues",
+    "source": "https://github.com/zobzn/psr7-stack"
+  },
+  "authors": [
+    {
+      "name": "zema",
+      "email": "zlobzn@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "psr/http-message": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "zendframework/zend-diactoros": "^1.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zobzn\\": "src/Zobzn"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zobzn\\Test\\Psr7\\": "test/"
+    }
+  }
+}

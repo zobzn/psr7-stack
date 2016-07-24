@@ -39,5 +39,8 @@
     "psr-4": {
       "Zobzn\\Test\\Psr7\\": "test/"
     }
+  },
+  "scripts": {
+    "test": "phpunit"
   }
 }
